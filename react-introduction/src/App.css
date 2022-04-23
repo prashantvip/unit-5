@@ -1,0 +1,50 @@
+.App {
+  text-align: center;
+}
+
+.content {
+  text-align: left;
+  width: 80%;
+  margin: auto;
+}
+
+.nav {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 0px;
+  background: rgb(36, 37, 42);
+  padding: 10px;
+}
+
+.logo {
+  color: white;
+  margin-top: 10px;
+}
+.links {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  color: white;
+  margin-top: 10px;
+  list-style-type: none;
+}
+.btn {
+  background: rgb(84, 172, 187);
+  color: white;
+  border-radius: 25px;
+  border: 0px;
+  width: 120px;
+  margin-left: 120px;
+}
+.btn:hover {
+  background: rgb(4, 51, 98);
+  cursor: pointer;
+}
+.square {
+  list-style: square;
+}
+.circle {
+  list-style: circle;
+}
+.disc {
+  list-style: disc;
+}
