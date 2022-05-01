@@ -1,0 +1,96 @@
+.main{
+    
+    width:40%;
+    margin:auto;
+    margin-top:30px;
+   
+    
+}
+input{
+    margin:10px;
+
+}
+#inner{
+    background-color: crimson;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 20px;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+
+
+.image{
+    border-radius: 20px;
+   height: 100%;
+    width: 95%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.container{
+ 
+    border: 1px solid red;
+    /* width: 35%; */
+    padding: 10px;
+    margin:10px auto;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 20px;
+
+}
+.container:hover{
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+.titel{
+    color: green;
+}
+
+
+
+.form-titel{
+    color: aliceblue;
+    font-style: italic;
+    font-size: 30px;
+}
+
+
+
+
+
+
+.cat{
+    color:  red;
+}
+
+
+.btn{
+    padding: 10px;
+    border: 1px solid ;
+    border-radius: 20px;
+    margin: 10px;
+   
+    background-color: rgb(255, 255, 255);
+}
+
+.btn:hover{
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+   cursor: pointer;
+}
+
+input{
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+}
+
+.collection{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    width: 95%;
+    margin:auto;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+    border-radius: 20px;
+    grid-gap: 2%;
+  
+}
+
+  
